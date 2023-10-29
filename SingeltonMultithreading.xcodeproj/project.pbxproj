@@ -16,6 +16,7 @@
 		C46125B52AEE9023004CB6E3 /* SingeltonMultithreadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46125B42AEE9023004CB6E3 /* SingeltonMultithreadingTests.swift */; };
 		C46125BF2AEE9023004CB6E3 /* SingeltonMultithreadingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46125BE2AEE9023004CB6E3 /* SingeltonMultithreadingUITests.swift */; };
 		C46125C12AEE9023004CB6E3 /* SingeltonMultithreadingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46125C02AEE9023004CB6E3 /* SingeltonMultithreadingUITestsLaunchTests.swift */; };
+		C46125CF2AEE919A004CB6E3 /* Singelton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46125CE2AEE919A004CB6E3 /* Singelton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C46125BA2AEE9023004CB6E3 /* SingeltonMultithreadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingeltonMultithreadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46125BE2AEE9023004CB6E3 /* SingeltonMultithreadingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingeltonMultithreadingUITests.swift; sourceTree = "<group>"; };
 		C46125C02AEE9023004CB6E3 /* SingeltonMultithreadingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingeltonMultithreadingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C46125CE2AEE919A004CB6E3 /* Singelton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singelton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		C461259C2AEE9022004CB6E3 /* SingeltonMultithreading */ = {
 			isa = PBXGroup;
 			children = (
+				C46125CD2AEE903C004CB6E3 /* Helper */,
 				C461259D2AEE9022004CB6E3 /* AppDelegate.swift */,
 				C461259F2AEE9022004CB6E3 /* SceneDelegate.swift */,
 				C46125A12AEE9022004CB6E3 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				C46125C02AEE9023004CB6E3 /* SingeltonMultithreadingUITestsLaunchTests.swift */,
 			);
 			path = SingeltonMultithreadingUITests;
+			sourceTree = "<group>";
+		};
+		C46125CD2AEE903C004CB6E3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C46125CE2AEE919A004CB6E3 /* Singelton.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C46125A22AEE9022004CB6E3 /* ViewController.swift in Sources */,
+				C46125CF2AEE919A004CB6E3 /* Singelton.swift in Sources */,
 				C461259E2AEE9022004CB6E3 /* AppDelegate.swift in Sources */,
 				C46125A02AEE9022004CB6E3 /* SceneDelegate.swift in Sources */,
 			);
